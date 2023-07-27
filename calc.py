@@ -1,24 +1,20 @@
 def add(x, y):
     return x + y
-
 def subtract(x, y):
     return x - y
-
 def multiply(x, y):
     return x * y
-
 def divide(x, y):
     if y == 0:
         raise ValueError("Cannot divide by zero!")
     return x / y
-
 def calculator():
     print("Choose an operation:")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
-
+    
     choice = input("Enter the operation number (1/2/3/4): ")
 
     num1 = float(input("Enter the first number: "))
